@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.env
+data/memory/*.json
+data/materials/*.chunks.json
+!data/materials/sample_course_notes.txt
