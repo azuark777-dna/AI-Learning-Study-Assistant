@@ -1,0 +1,20 @@
+# LLM runtime (local, via Ollama)
+ollama>=0.4.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-ollama>=0.2.0
+langgraph>=0.2.0
+
+# MCP (Model Context Protocol) server
+mcp>=1.0.0
+
+# RAG (retrieval)
+scikit-learn>=1.4.0
+numpy>=1.26.0
+
+# Document parsing
+pypdf>=4.0.0
+python-docx>=1.1.0
+
+# Config
+python-dotenv>=1.0.0

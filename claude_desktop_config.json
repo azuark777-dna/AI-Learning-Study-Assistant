@@ -1,0 +1,9 @@
+   {
+     "mcpServers": {
+       "study-assistant": {
+         "command": "C:\\AZARK\\ibm ai project\\ai-learning-study-assistant-2\\venv\\Scripts\\python.exe",
+         "args": ["-m", "src.mcp_server.server"],
+         "cwd": "C:\\AZARK\\ibm ai project\\ai-learning-study-assistant-2\\ai-learning-study-assistant"
+       }
+     }
+   }
