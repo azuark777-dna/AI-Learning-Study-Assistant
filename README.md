@@ -194,8 +194,4 @@ Claude Desktop config entry.
 - Add a web UI on top of `src/agent.py` (`Agent.handle()` is UI-agnostic).
 - Add spaced-repetition scheduling in `src/tools/learning_plan.py`.
 
-## Preparing for Submission
 
-See `docs/PROGRAM_ALIGNMENT.md` for a step-by-step guide to pushing this to
-GitHub and what to include in your final submission (repo link, PRD,
-program-alignment doc, and a short demo).
