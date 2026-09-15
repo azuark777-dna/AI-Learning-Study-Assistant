@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "source": "sample_course_notes.txt",
+    "chunk_index": 0,
+    "text": "Lecture 1: Introduction to Machine Learning Machine learning is a field of artificial intelligence that gives systems the ability to learn from data without being explicitly programmed. There are three main categories of machine learning: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning uses labeled data to learn a mapping from inputs to outputs. Common supervised learning tasks include classification, where the output is a discrete category, and regression, where the output is a continuous value. Examples include spam detection (classification) and house price prediction (regression). Unsupervised learning finds structure in unlabeled data. Common tasks include clustering, where similar data points are grouped together, and dimensionality reduction, where high-dimensional data is projected into a lower-dimensional space while preserving important structure. Reinforcement learning trains an agent to make sequences of decisions by rewarding desired behaviors and/or punishing undesired ones. The agent learns a policy that maximizes cumulative reward over time through trial and error interaction with an environment. Lecture 2: Model Evaluation Evaluating a machine learning model requires splitting data into training, validation, and test sets. The training set is used to fit the model, the validation set is used to tune hyperparameters, and the test set provides an unbiased estimate of the model's performance on unseen data. Common evaluation metrics for classification include accuracy, precision, recall, and F1 score."
+  },
+  {
+    "id": 1,
+    "source": "sample_course_notes.txt",
+    "chunk_index": 1,
+    "text": "used to fit the model, the validation set is used to tune hyperparameters, and the test set provides an unbiased estimate of the model's performance on unseen data. Common evaluation metrics for classification include accuracy, precision, recall, and F1 score. Accuracy measures the proportion of correct predictions. Precision measures how many predicted positives were actually positive. Recall measures how many actual positives were correctly identified. The F1 score is the harmonic mean of precision and recall, useful when classes are imbalanced. Overfitting occurs when a model learns the training data too well, including its noise, and performs poorly on new data. Underfitting occurs when a model is too simple to capture the underlying pattern in the data. Cross-validation and regularization are common techniques used to reduce overfitting. Lecture 3: Neural Networks Basics A neural network is composed of layers of interconnected nodes, or neurons. Each connection has a weight that is adjusted during training. The input layer receives the raw features, hidden layers transform the data through weighted sums and non-linear activation functions, and the output layer produces the final prediction. Backpropagation is the algorithm used to train neural networks. It computes the gradient of the loss function with respect to each weight by applying the chain rule, propagating the error backward from the output layer to the input layer,"
+  },
+  {
+    "id": 2,
+    "source": "sample_course_notes.txt",
+    "chunk_index": 2,
+    "text": "prediction. Backpropagation is the algorithm used to train neural networks. It computes the gradient of the loss function with respect to each weight by applying the chain rule, propagating the error backward from the output layer to the input layer, and then updating the weights using gradient descent. Common activation functions include ReLU (rectified linear unit), sigmoid, and tanh. ReLU is widely used in hidden layers because it helps mitigate the vanishing gradient problem and is computationally efficient."
+  }
+]

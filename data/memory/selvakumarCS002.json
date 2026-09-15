@@ -1,0 +1,26 @@
+{
+  "student_id": "selvakumarCS002",
+  "profile": {
+    "exam_date": "2026-10-01",
+    "hours_per_week": 6.0
+  },
+  "plan": [
+    {
+      "topic": "topic1",
+      "status": "upcoming",
+      "order": 0
+    },
+    {
+      "topic": "topic2",
+      "status": "upcoming",
+      "order": 1
+    },
+    {
+      "topic": "topic3",
+      "status": "upcoming",
+      "order": 2
+    }
+  ],
+  "quiz_history": [],
+  "session_log": []
+}
